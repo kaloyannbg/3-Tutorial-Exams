@@ -9,7 +9,7 @@ int main() {
     long long int iULL = -9000000000000775845; // can be signed long long int
 
     printf("%d\n", iShortInt);
-    printf("%d\n", cChar);
+    printf("%u\n", cChar);
     printf("%u\n", iUnsignedInt);
     printf("%lu\n", iUnsignedLongInt);
     printf("%lld\n", iULL);
