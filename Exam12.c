@@ -33,11 +33,11 @@ printf("\n");
     printf("      # # # # # # #\n");
     printf("    # # # # # # # # #\n");
     printf("  # # # # # # # # # # #\n");
-	printf("    # # # # # # # # #\n");
-	printf("      # # # # # # #\n");
-	printf("        # # # # #\n");
-	printf("          # # #\n");
-	printf("            #\n");
+    printf("    # # # # # # # # #\n");
+    printf("      # # # # # # #\n");
+    printf("        # # # # #\n");
+    printf("          # # #\n");
+    printf("            #\n");
     printf("           (c)");
     return 0;
 
