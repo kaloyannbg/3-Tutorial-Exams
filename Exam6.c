@@ -2,7 +2,7 @@
 
 int main() {
 
-    short int iShortInt =  -127;
+    short int iShortInt =  -127; // can be char too
     unsigned char cChar = 255;
     unsigned int iUnsignedInt = 63498;
     unsigned long int iUnsignedLongInt = 4294967292;
