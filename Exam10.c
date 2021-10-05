@@ -11,12 +11,10 @@
 
 int main() {
     int iTotalCaravan = 3;
-    float fTotalCaravanPrice = 90.0;
-    float fCaravanPrice = fTotalCaravanPrice / iTotalCaravan;
+    float fCaravanPrice = 90.0;
 
     int iTotalCamper = 3;
-    float fTotalCamperPrice = 100.0;
-    float fCamperPrice = fTotalCamperPrice / iTotalCamper;
+    float fCamperPrice = 100.0;
 
     float fDays = 0.0;
 
