@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main() {
-
+void printPatternA() {
     printf("# # # # # # # # # # #\n");
     printf("  # # # # # # # # # \n");
     printf("    # # # # # # #\n");
@@ -9,36 +8,50 @@ int main() {
     printf("        # # #\n");
     printf("          #\n");
     printf("         (a)    \n\n\n");
+}
 
-printf("\n");
-printf("\n");
-printf("\n");
+void printPatternB() {
+    printf("          #\n");
+    printf("        # # #\n");
+    printf("      # # # # #\n");
+    printf("    # # # # # # #\n");
+    printf("  # # # # # # # # #\n");
+    printf("# # # # # # # # # # #\n");
+    printf("         (b)");
+}
 
+void printPatternC() {
     printf("            #\n");
     printf("          # # #\n");
     printf("        # # # # #\n");
     printf("      # # # # # # #\n");
     printf("    # # # # # # # # #\n");
     printf("  # # # # # # # # # # #\n");
-    printf("           (b)");
-
-printf("\n");
-printf("\n");
-printf("\n");
-
-
-    printf("            #\n");
-    printf("          # # #\n");
-    printf("        # # # # #\n");
-    printf("      # # # # # # #\n");
-    printf("    # # # # # # # # #\n");
-    printf("  # # # # # # # # # # #\n");
-    printf("    # # # # # # # # #\n");
-    printf("      # # # # # # #\n");
-    printf("        # # # # #\n");
-    printf("          # # #\n");
-    printf("            #\n");
+	printf("    # # # # # # # # #\n");
+	printf("      # # # # # # #\n");
+	printf("        # # # # #\n");
+	printf("          # # #\n");
+	printf("            #\n");
     printf("           (c)");
+}
+
+void printNewLines() {
+    printf("\n");
+    printf("\n");
+    printf("\n");
+}
+
+int main() {
+
+
+printPatternA();
+printNewLines();
+
+printPatternB();
+printNewLines();
+
+printPatternC();
+
     return 0;
 
 }
