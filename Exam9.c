@@ -9,8 +9,10 @@ int main() {
 
     printf("%.7f\n", dDouble);
     printf("%.20f\n", lDouble);
-    printf("%lE\n", lDoubleTwo);
-    printf("%llf\n", dllDouble);
+    printf("%le\n", lDoubleTwo);
+    printf("%.30le\n", dllDouble); // cut after 8
 
+    double prom = 7.1234567890123456789123456789;
+    printf("\n normal:%.30lf\n sci:%.30le \n or \n sci:%.30E   \n",prom, prom, prom);
     return 0;
 }
