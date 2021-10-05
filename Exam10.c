@@ -8,6 +8,7 @@
 клиента дължи на компанията. Принтирайте резултата
 */
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     int iTotalCaravan = 3;
@@ -36,6 +37,7 @@ int main() {
     if(iChoice == 1) {
         printf("How many caravans would you like to rent: ");
         scanf("%d", &rentNum);
+        rentNum = abs(rentNum);
         if(iAvailableCaravan < rentNum) {
             printf("Sorry but we dont have %d avaialable", rentNum);
         }else {
@@ -49,6 +51,7 @@ int main() {
     } else if(iChoice == 2) {
         printf("How many caravans would you like to rent: ");
         scanf("%d", &rentNum);
+        rentNum = abs(rentNum);
         if(iAvailableCamper < rentNum) {
             printf("Sorry but we dont have %d avaialable", rentNum);
         }else {
